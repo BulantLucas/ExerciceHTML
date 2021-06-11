@@ -1,0 +1,14 @@
+
+  .fieldset1, .legend1{
+    background-color: rgb(81, 135, 216);
+}
+.fieldset2, .legend2{
+    background-color: rgb(189, 81, 216);
+}
+.fieldset3, .legend3{
+    background-color: rgb(207, 27, 96);
+}
+fieldset{
+    margin-bottom: 2px;
+
+}

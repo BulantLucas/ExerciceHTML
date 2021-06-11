@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style7.css" />
+    <title>Exercice 7</title>
+</head>
+<body>
+    <form id=paiement></form>
+    <fieldset class="fieldset1">
+        <legend class="legend1">Votre identité</legend>
+        <div>
+            <!-- Prémière ligne du formulaire-->             
+                <ol>
+                <li>
+                  <label for=nom>Nom</label>
+                  <input id=nom name=nom type=text placeholder="Nom" required autofocus>
+                </li>
+                <li>
+                  <label for=prénom>Prénom</label>
+                  <input id=email name=prénom type=prénom placeholder="Prénom" required>
+                </li>
+                <li>
+                    <label for=email>Adresse mail </label>
+                    <input id=email name=email type=email placeholder="Adresse mail" required>
+                  </li>
+              </ol>     
+         </div>
+        </fieldset>
+    <fieldset class="fieldset2">
+        <legend class="legend2">Adresse de livraison</legend>
+        <div>
+            <!-- Deuxième fieldset formulaire -->
+              <legend>Adresse de livraison</legend>
+                <ol>
+                  <li>
+                    <label for=adresse>Adresse</label>
+                    <textarea id=adresse name=adresse rows=5 required></textarea>
+                  </li>
+                  <li>
+                    <label for=codepostal>Code postal</label>
+                    <input id=codepostal name=codepostal type=text placeholder="Code postal" required>
+                  </li>
+                    <li>
+                    <label for=pays>Ville</label>
+                    <input id=pays name=pays type=text placeholder="Ville" required>
+                  </li>
+                </ol>
+       </div>
+    </fieldset>
+
+    <fieldset class="fieldset3">
+        <legend class="legend3"> Information du réglement</legend>
+        <div>
+            <!-- Troisième fieldset formulaire -->
+              <legend>Informations réglement</legend>
+              <ol>
+                <li>
+                  
+                    <legend>Type de carte bancaire</legend>
+                    <ol>
+                      <li>
+                        <input id=visa name=type_de_carte type=radio>
+                        <label for=visa>VISA</label>
+                      </li>
+                      <li>
+                        <input id=mastercard name=type_de_carte type=radio>
+                        <label for=mastercard>Mastercard</label>
+                      </li>
+                    </ol>
+                  
+                </li>
+                <li>
+                  <label for=numero_de_carte>Numéro de carte</label>
+                  <input id=numero_de_carte name=numero_de_carte type=number placeholder="numéro de carte" required>
+                </li>
+                <li>
+                  <label for=securite>Code sécurité</label>
+                  <input id=securite name=securite type=number placeholder="Code de sécurité" required>
+                </li>
+                <li>
+                  <label for=nom_porteur>Nom du titulaire</label>
+                  <input id=nom_porteur name=nom_porteur type=text placeholder="Nom du titulaire" required>
+                </li>
+              </ol>
+        </div>
+         </fieldset>  
+          
+            
+              <button type=submit>J'achète !</button>
+            
+    </form>
+    
+</body>
+</html>
